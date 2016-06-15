@@ -1,5 +1,6 @@
 body {
 	background-color: LightGray;
+	margin: 0;
 }
 div {border: 1px solid Chocolate;
 }
