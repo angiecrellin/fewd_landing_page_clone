@@ -6,10 +6,21 @@ div {border: 1px solid Chocolate;
 .top-navigation{
 	background-color: #fff;
 }
-.top-navigation > .content{
+.top-navigation .content{
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding:0px 15px;
 }
+.top-navigation .links {
+	float:right;
+}
+.top-navigation .links li {
+	display: inline-block;
+}
+
+
+
+
 
 
