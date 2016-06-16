@@ -45,13 +45,17 @@ div {border: 1px solid Chocolate;
 	overflow: auto;
 	height:650px;
 	overflow: auto;
+	box-sizing:border-box;
+	vertical-align: baseline;
 }
 
 .content {
 	width: 46rem;
-	padding: 0 0.93rem;
+	padding: 0rem 0.93rem;
 	margin: 0 auto;	
+
 }
+
 .introduction h1 {
 	margin-top: 17.5rem;
 	font-size: 3.125rem;
@@ -85,7 +89,18 @@ button:hover {
 	background-color: orangered;
 }
 
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+.cases .content {
+	margin-top: 7.875rem;
+	padding: none;
+	color: black;
+	text-align: center;
 
+}
 
 
 
