@@ -6,7 +6,9 @@ div {border: 1px solid Chocolate;
 }
 .top-navigation{
 	background-color: #fff;
-
+	position: fixed;
+	width:100%;
+	z-index: 9999;
 }
 .top-navigation .content{
 	width: 970px;
@@ -88,6 +90,9 @@ button {
 button:hover {
 	background-color: orangered;
 }
+
+
+
 
 
 
