@@ -1,6 +1,7 @@
 body {
 	background-color: LightGray;
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 div {border: 1px solid Chocolate;
 }
@@ -90,8 +91,25 @@ button {
 button:hover {
 	background-color: orangered;
 }
+.cases .content {
+	margin-top: 7.875rem;
+	color: #1d1e21;
+	text-align:center;
+}
 
-
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;	
+	
+}
+.cases .devices li{
+	width: 33.3333333%;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 4em;
+	margin-right: -4px;
+}
 
 
 
