@@ -90,7 +90,9 @@ button {
 }
 button:hover {
 	background-color: orangered;
+
 }
+
 .cases .content {
 	margin-top: 7.875rem;
 	color: #1d1e21;
@@ -103,12 +105,31 @@ button:hover {
 	font-weight: 300;	
 	
 }
-.cases .devices li{
-	width: 33.3333333%;
+
+
+ .cases .devices li {
+	width: 33.333333333%;
 	display: inline-block;
 	box-sizing: border-box;
 	height: 4em;
-	margin-right: -4px;
+	margin: -4px;
+	
+}	
+	
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin:2.5rem 0 1.875rem;
+	display:inline-block;
+
+}
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+	
+
 }
 
 
