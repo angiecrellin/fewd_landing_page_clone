@@ -92,44 +92,53 @@ button:hover {
 	background-color: orangered;
 
 }
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
 
-.cases .content {
+.content {
 	margin-top: 7.875rem;
 	color: #1d1e21;
 	text-align:center;
 }
 
-.cases h2 {
+h2 {
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
 	font-weight: 300;	
 	
 }
-
-
- .cases .devices li {
-	width: 33.333333333%;
+.cases .devices {
+	width: 33.33333333%;
 	display: inline-block;
 	box-sizing: border-box;
 	height: 4em;
-	margin: -4px;
-	
+	margin-right: -4em;
+	text-align:center;
 }	
-	
 .cases .devices h3 {
 	font-weight: 400;
-	font-size: 1.563rem;
-	margin:2.5rem 0 1.875rem;
-	display:inline-block;
-
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
 }
+
 .social {
 	background-color: #fff;
 	overflow: auto;
 	padding-bottom: 9.375rem;
 	text-align: center;
-	
 
+}
+.icons {
+	list-style: none;
+	padding: 0;
+
+}
+
+.social li {
+	display:inline-block;
 }
 
 
