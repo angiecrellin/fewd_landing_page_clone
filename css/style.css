@@ -111,10 +111,11 @@ h2 {
 	
 }
 .cases .devices {
-	width: 33.33333333%;
+	width: 23.3333333%;
 	display: inline-block;
 	box-sizing: border-box;
 	height: 4em;
+	margin-left: 9em;
 	margin-right: -4em;
 	text-align:center;
 
@@ -149,8 +150,10 @@ h2 {
 
 }
 
-h5 {
+.copy {
 	color: lightgray;
+	font-size: 0.9rem;
+	font-weight: 300;
 }
 
 
