@@ -110,13 +110,14 @@ h2 {
 	font-weight: 300;	
 	
 }
+.cases {
+	text-align:center;
+}
 .cases .devices {
-	width: 23.3333333%;
+	width: 28.3333333%;
 	display: inline-block;
 	box-sizing: border-box;
 	height: 4em;
-	margin-left: 9em;
-	margin-right: -4em;
 	text-align:center;
 
 }	
@@ -147,6 +148,7 @@ h2 {
 	margin: 1.25rem 5px;
 	border: 1px solid #eaebec;
 	text-align: center;
+	line-height: 2.5rem;
 
 }
 
